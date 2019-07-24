@@ -1,9 +1,16 @@
 body {
     margin:0;
     background-image: url("../images/fondo.jpg");
-    background-color: transparent;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+
+    h3 {
+    color: #63707e;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 10px;
+    }
 
     li{
         list-style: none;
@@ -15,6 +22,48 @@ body {
             background-color: #63707e;
             color: white;
         }
+    }
+
+    .mainWindow {
+        background-color: white;
+        width: 70%;
+        height: 400px;
+        margin: 25px;
+        .nameUser {
+            color:  #63707e;
+            font-weight: bold;
+            margin: 5px 5px;
+        }
+
+        .userImage {
+            border-radius: 100%;
+            margin-left: 20%;
+            margin-top: 5%;
+        }
+
+        .userResumeText {
+            padding: 5px;
+            margin: 5px;
+        }
+        
+        .contactText {
+            background-color: #93b5b3;
+            color: white;
+            font-weight: 200;
+            width: 62%;
+            margin-left: 15%;
+            padding: 5px;
+
+        }
+
+        .footerMainWindow {
+            margin: 1px;
+            padding: 2px;
+            display: flex;
+            color: #93b5b3;
+
+        }
+
     }
 
 }
